@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="node_modules/gridstack/dist/gridstack.css" rel="stylesheet" />
+    <link href="node_modules/gridstack/dist/gridstack-extra.min.css" rel="stylesheet" />
+    <link href="site.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Dashboard</h1>
+
+    <div class="grid-stack">
+        <div class="grid-stack-item"
+             data-gs-x="0" data-gs-y="0"
+             data-gs-width="4" data-gs-height="2">
+            <div class="grid-stack-item-content">
+                widget 1
+            </div>
+        </div>
+        <div class="grid-stack-item"
+             data-gs-x="4" data-gs-y="0"
+             data-gs-width="4" data-gs-height="4">
+            <div class="grid-stack-item-content">
+                widget 2
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script src="node_modules/lodash/lodash.min.js"></script>
+    <script src="node_modules/gridstack/dist/gridstack.all.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var options = {
+                cell_height: 80,
+                vertical_margin: 10
+            };
+            $('.grid-stack').gridstack(options);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+	"version": "1.0.0",
+	"name": "ASP.NET",
+	"private": true,
+  "devDependencies": {
+  },
+  "dependencies": {
+    "gridstack": "0.3.0",
+    "jquery-ui-dist": "1.12.1"
+  }
+}

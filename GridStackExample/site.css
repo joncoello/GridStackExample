@@ -1,0 +1,7 @@
+﻿.grid-stack-item.ui-draggable.ui-resizable.ui-resizable-autohide{
+    border: 1px solid gray;
+}
+
+.grid-stack-item.ui-draggable.ui-resizable{
+    border: 1px dashed gray;
+}
